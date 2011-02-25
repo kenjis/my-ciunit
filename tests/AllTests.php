@@ -1,5 +1,10 @@
 <?php
 
+// Buffer the output so if there SESSIONS are used no header information 'may' be
+// sent before the final output
+
+ob_start();
+
 /*
 * fooStack, CIUnit for CodeIgniter
 * Copyright (c) 2008-2009 Clemens Gruenberger

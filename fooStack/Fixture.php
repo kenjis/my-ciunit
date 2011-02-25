@@ -44,6 +44,7 @@ class Fixture {
                 //unset the rest
                 unset($row[$key]);
             }
+
             $this->CI->db->insert($table, $row);
         }
 
@@ -58,7 +59,7 @@ class Fixture {
              !isset($this->CI->db->database) )
         {
             $this->CI = &get_instance();
-            $this->CI->db = $this->CI->config->item('db');
+            $this->CI->load->database();
         }
 
         //security measure 2: only load if used database ends on '_test'

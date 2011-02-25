@@ -264,7 +264,7 @@ class fooLoader extends CI_Loader {
             if (file_exists($my_driver_file))
             {
                 require_once($my_driver_file);
-                $db =& new $my_driver(get_object_vars($db));
+                $db = new $my_driver(get_object_vars($db));
             }
 
             if ($return === TRUE)

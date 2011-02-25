@@ -69,7 +69,7 @@ class CIUnit {
 
     public static function &set_controller($controller = 'Controller', $path=FALSE)
     {
-        $controller_name = array_pop(split('/', $controller));
+        $controller_name = array_pop(explode('/', $controller));
         //echo "\nc name ".$controller_name;
         //is it the current controller?
         if ($controller_name == self::$current)
@@ -239,7 +239,7 @@ function viewvars()
 
 //=== and off we go ===
 $CI = &set_controller();
-// $CI->load->library('fooStack/Spyc');
-// CIUnit::$spyc = &$CI->spyc;
+$CI->load->library('fooStack/Spyc');
+CIUnit::$spyc = &$CI->spyc;
 $CI->load->library('fooStack/Fixture');
 CIUnit::$fixture = &$CI->fixture;
