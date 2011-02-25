@@ -8,7 +8,6 @@
 */
 
 //load Testing
-require_once 'PHPUnit/Framework.php';
 require_once 'CIUnitTestCase.php';
 require_once 'CIUnitTestSuite.php';
 
