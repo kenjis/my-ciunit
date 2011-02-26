@@ -62,7 +62,7 @@ function create_menu(basepath)
 		'<ul>' +
 		'<li><a href="https://bitbucket.org/rafsoaken/ciunit">Project\'s Mercurial Repository</a></li>' +
 		'<li><a href="http://www.phpunit.de/manual/3.6/en/index.html">PHPUnit 3.6 Manual</a></li>' +
-		'<li><a href="http://www.phpunit.de/manual/3.5/en/index.html">Community Wiki</a></li>' +
+		'<li><a href="http://www.phpunit.de/manual/3.5/en/index.html">PHPUnit 3.5 Manual</a></li>' +
 		'</ul>' +	
 		
 		'</td></tr></table>');
