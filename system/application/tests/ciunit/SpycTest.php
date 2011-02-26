@@ -10,7 +10,7 @@
 
 include_once dirname(__FILE__) . '/../CIUnit.php';
 
-class testSpyc extends PHPUnit_Framework_TestCase
+class SpycTest extends PHPUnit_Framework_TestCase
 {
 	protected function setUp()
 	{

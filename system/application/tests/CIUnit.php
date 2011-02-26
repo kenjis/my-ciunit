@@ -68,7 +68,9 @@ class CIUnit {
 
     public static function &set_controller($controller = 'Controller', $path=FALSE)
     {
-        $controller_name = array_pop(explode('/', $controller));
+		$params = explode('/', $controller);
+        $controller_name = array_pop($params);
+		
         //echo "\nc name ".$controller_name;
         //is it the current controller?
         if ($controller_name == self::$current)
@@ -98,7 +100,7 @@ class CIUnit {
         //reset components
         //$loader->_ci_components = array();
         //reset saved queries
-        self::$controller->db->queries = array();
+        @self::$controller->db->queries = array();
         //clean output / viewvars as well;
         if ( isset(self::$controller->output) )
         {

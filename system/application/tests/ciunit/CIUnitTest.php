@@ -10,7 +10,7 @@
 
 include_once dirname(__FILE__).'/../CIUnit.php';
 
-class testCIUnit extends CIUnit_TestCase
+class CIUnitTest extends CIUnit_TestCase
 {
     function setUp()
     {

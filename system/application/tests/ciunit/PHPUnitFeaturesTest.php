@@ -10,7 +10,7 @@
 
 include_once dirname(__FILE__).'/../CIUnit.php';
 
-class testPHPUnitFeatures extends CIUnit_TestCase {
+class PHPUnitFeaturesTest extends CIUnit_TestCase {
 
     function setUp()
     {
