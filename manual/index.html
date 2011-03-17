@@ -3,32 +3,53 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
 <head>
-  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+  <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
   <title>Intro to CIUnit (part of fooStack) for CodeIgniter</title>
-</head>
+  
+  <style type='text/css' media='all'>@import url('./userguide.css');</style>
+  <link rel="stylesheet" type="text/css" href="userguide.css" />
+  
+<script type="text/javascript" src="./nav/nav.js"></script>
+<script type="text/javascript" src="./nav/prototype.lite.js"></script>
+<script type="text/javascript" src="./nav/moo.fx.js"></script>
+<script type="text/javascript" src="./nav/user_guide_menu.js"></script>
 
-<style>
-body {
-  width: 750px;
-  margin: 0px auto auto 100px;
-  background-color: #000000;
-}
-#wrapper {
-  padding : 16px 50px 50px 50px;
-  margin-top: 0px;
-  background-color: #ffffff;
-  border-left-style: groove; 
-  border-left-color: green; 
-  border-left-width: 15px; 
-  border-right-style: ridge; 
-  border-right-color: green; 
-  border-right-width: 15px; ;
-}
-</style>
+<meta http-equiv='expires' content='-1' />
+<meta http-equiv= 'pragma' content='no-cache' />
+<meta name='robots' content='all' />
+</head>
 
 <body>
 
-<div id="wrapper">
+<!-- START NAVIGATION -->
+<div id="nav"><div id="nav_inner"><script type="text/javascript">create_menu('./');</script></div></div>
+<div id="nav2"><a name="top"></a><a href="javascript:void(0);" onclick="myHeight.toggle();"><img src="./images/nav_toggle_darker.jpg" width="154" height="43" border="0" title="Toggle Table of Contents" alt="Toggle Table of Contents" /></a></div>
+<div id="masthead">
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+<tr>
+<td><h1>fooStack for CodeIgniter</h1></td>
+<td id="breadcrumb_right"><a href="#">Right Breadcrumb</a></td>
+</tr>
+</table>
+</div>
+<!-- END NAVIGATION -->
+
+<!-- START BREADCRUMB -->
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%">
+<tr>
+<td id="breadcrumb">
+<a href="http://example.com/">Project Home</a> &nbsp;&#8250;&nbsp;
+<a href="#">User Guide Home</a> &nbsp;&#8250;&nbsp;
+Foo Class
+</td>
+<td id="searchbox"><form method="get" action="http://www.google.com/search"><input type="hidden" name="as_sitesearch" id="as_sitesearch" value="example.com/user_guide/" />Search Project User Guide&nbsp; <input type="text" class="input" style="width:200px;" name="q" id="q" size="31" maxlength="255" value="" />&nbsp;<input type="submit" class="submit" name="sa" value="Go" /></form></td>
+</tr>
+</table>
+<!-- END BREADCRUMB -->
+
+<!-- START CONTENT -->
+<div id="content">
+
 <!--
 /*
 * fooStack, Codeigniter Plugin for Unit testing and more
@@ -39,7 +60,6 @@ body {
 */
 -->
 
-<h1>fooStack for CodeIgniter</h1>
 <h2>CIUnit: Unit testing for CodeIgniter</h2>
 <p>
 CIUnit is a cool bridge between your CodeIgniter application and phpUnit.
@@ -113,8 +133,20 @@ is also available through <pre>$this->comments_fixt['second'];</pre>
 <p>
 Without writing any tests, typing "phpunit CIUnitAllTests.php" from within the "YourProject/application/tests/ciunit" directory will already run a couple of tests - these make sure that CIUnit is correctly installed and works as expected.
 </p>
-
 </div>
-</body>
+<!-- END CONTENT -->
 
+
+<div id="footer">
+<p>
+Previous Topic:&nbsp;&nbsp;<a href="#">Previous Class</a>
+&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+<a href="#top">Top of Page</a>&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+<a href="#">User Guide Home</a>&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;
+Next Topic:&nbsp;&nbsp;<a href="#">Next Class</a>
+</p>
+<p><a href="http://codeigniter.com">CodeIgniter</a> &nbsp;&middot;&nbsp; Copyright &#169; 2006-2010 &nbsp;&middot;&nbsp; <a href="http://ellislab.com/">Ellislab, Inc.</a></p>
+</div>
+
+</body>
 </html>
