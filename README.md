@@ -1,3 +1,7 @@
+# Important!
+
+2014/06/08: **I am not using and maintaining this CIUnit.** Sorry.
+
 # CIUnit Foostack
 
 Originally created  by: Clemens "rafsoaken" Gruenberger
