@@ -1,6 +1,6 @@
 # Important!
 
-2015/05/10: **I'm building a new testing tool for CodeIgniter 3.0 with PHPUnit.**
+2015/05/10: **I'm building a new testing tool for CodeIgniter 3.0 with PHPUnit, check it out:** https://github.com/kenjis/ci-phpunit-test
 
 2014/06/11: If you search a fork with recent activity, check it out: https://github.com/Celc/CIUnit
 
