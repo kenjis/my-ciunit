@@ -1,4 +1,6 @@
 # If you use CodeIgniter 3.0 with PHPUnit, I recommend to check my new testing tool: <https://github.com/kenjis/ci-phpunit-test>
+
+# If you search a fork with recent activity, check it out: https://github.com/Celc/CIUnit
 ---
 
 # Important!
