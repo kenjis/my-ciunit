@@ -7,11 +7,10 @@
 
 # Important!
 
-2015/05/10: I'm building a new testing tool for CodeIgniter 3.0 with PHPUnit, check it out: https://github.com/kenjis/ci-phpunit-test
-
-2014/06/11: If you search a fork with recent activity, check it out: https://github.com/Celc/CIUnit
-
-2014/06/08: **I am not using and maintaining this CIUnit.** Sorry.
+- 2020/03/14: Because Bitbucket shut down Mercurial repos, I moved this repo to GitHub.
+- 2015/05/10: I'm building a new testing tool for CodeIgniter 3.0 with PHPUnit, check it out: https://github.com/kenjis/ci-phpunit-test
+- 2014/06/11: If you search a fork with recent activity, check it out: https://github.com/Celc/CIUnit
+- 2014/06/08: **I am not using and maintaining this CIUnit.** Sorry.
 
 # CIUnit Foostack
 
@@ -109,5 +108,5 @@ If more than one test fails, PHPUnit reports 1 failure, even if 100 fails occurr
 
 If you are not familiar with PHPUnit/CIUnit, tutorial below may help you.
 
-- How to use PHPUnit (CIUnit) with CodeIgniter 2.1.0 [http://d.hatena.ne.jp/Kenji_s/20120117/1326763908](http://d.hatena.ne.jp/Kenji_s/20120117/1326763908)
-- Database Testing of CodeIgniter Application with PHPUnit (CIUnit) [http://d.hatena.ne.jp/Kenji_s/20120118/1326848578](http://d.hatena.ne.jp/Kenji_s/20120118/1326848578)
+- How to use PHPUnit (CIUnit) with CodeIgniter 2.1.0 [https://kenji-s.hatenadiary.org/entry/20120117/1326763908](https://kenji-s.hatenadiary.org/entry/20120117/1326763908)
+- Database Testing of CodeIgniter Application with PHPUnit (CIUnit) [https://kenji-s.hatenadiary.org/entry/20120118/1326848578](https://kenji-s.hatenadiary.org/entry/20120118/1326848578)
